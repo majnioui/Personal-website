@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Mohammed El Majnioui.</title>
+    <link rel="icon" type="image/x-icon" href="assets/favicon.png">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.0/animate.min.css">
+    <script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css" integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="assets/index.css">
+</head>
+<body>
+    <section class="background-rain">
+    <div id="loading">
+        <div id="spinner"></div>
+    </div>
+    <div id="particles-js"></div>
+    <div id="box">
+        <div class="box1 onlywide animated bounceOutLeft" style="animation-delay:1.7s;"></div>
+        <div class="box2 onlywide animated bounceOutLeft" style="animation-delay:1.8s;"></div>
+        <div class="box2 onlywide animated bounceOutLeft" style="animation-delay:1.9s;"></div>
+        <div class="box2 animated bounceOutRight" style="animation-delay:1.9s;"></div>
+        <div class="box2 onlywide animated bounceOutRight" style="animation-delay:1.8s;"></div>
+        <div class="box2 onlywide animated bounceOutRight" style="animation-delay:1.7s;"></div>
+    </div>
+    <div id="middle" class="animated slideInDown" style="animation-delay:2.0s;">
+        <h1>Mohammed.</h1>
+        <br>
+        <h2><span>Junior front-end developer / Tier-2 Technical Support</span></h2>
+        <br>
+        <br>
+        <br>
+        <div class="wrapper" id="navi">
+            <a class="button" onclick="showabout()">about</a>
+            <a class="button" onclick="showwork()">work</a>
+        </div>
+        <table>
+                <tr>
+                    <td class="animated zoomIn" style="animation-delay:2.2s;"><a href="https://linkedin.com/in/elmajnioui" class="social" target="_blank"><i class="fab fa-linkedin"></i></a></td>
+                    <td class="animated zoomIn" style="animation-delay:2.4s;"><a href="https://twitter.com/_marocain/" class="social" target="_blank"><i class="fab fa-twitter"></i></a></td>
+                    <td class="animated zoomIn" style="animation-delay:2.8s;"><a href="https://github.com/majnioui" class="social" target="_blank"><i class="fab fa-github"></i></a></td>
+                    <td class="animated zoomIn" style="animation-delay:2.8s;"><a href="mailto:mo@majnioui.me" class="social" target="_blank"><i class="fa fa-envelope"></i></a></td>
+                </tr>
+        </table>
+    </div>
+    
+    <div id="work_container" class="container">
+        <div onclick="closework()"><i class="fas fa-angle-right"></i></div>
+        <h1>works.</h1>
+        <section>
+            <h2>Some of my Github public projects</h2>
+            <div id="used">
+                <div><i class="fa-brands fa-html5"></i>&nbsp;HTML5</div>
+                <div><i class="fa-brands fa-css3-alt"></i>&nbsp;CSS3</div>
+                <div><i class="fa-brands fa-bootstrap"></i>&nbsp;Bootstrap</div>
+                <div><i class="fa-regular fa-file-code"></i>&nbsp;Bulma</div>
+                <div><i class="fa-brands fa-sass"></i>&nbsp;Sass</div>
+                <div><i class="fa-regular fa-gem"></i>&nbsp;Ruby On Rails</div>
+                <div><i class="fa-regular fa-gem"></i>&nbsp;Ruby</div>
+                <div><i class="fa-solid fa-code"></i>&nbsp;jQuery</div>
+                <div><i class="fa-brands fa-js"></i>&nbsp;JavaScript</div>
+            </div>
+        </section>
+    </div>
+    <div id="about_container" class="container">
+            <div onclick="closeabout()"><i class="fas fa-angle-left"></i></div>
+            <h1>about.</h1>
+            <section>
+                <h2>Hello</h2>
+                <p>
+                    My name is Mohamed and I am a junior front-end developer. I have a passion for building user-friendly and responsive websites. I am also proficient in jQuery and Bootstrap.
+                </p>
+                <p>
+                    I am a quick learner and always keen to learn new technologies. I am also always willing to take on new challenges and look for ways to improve my work.
+                </p>
+            </section>
+            <section>
+                <h2>Tl:dr</h2>
+                <p>
+                    I turn tea <i class="fa-solid fa-mug-hot"></i> into code, use tabs over spaces, and never broke production.
+                </p>
+                <section>
+                <h2>I've been using</h2>
+                <div id="used">
+                    <div><i class="fa-brands fa-html5"></i>&nbsp;HTML5</div>
+                    <div><i class="fa-brands fa-css3-alt"></i>&nbsp;CSS3</div>
+                    <div><i class="fa-brands fa-bootstrap"></i>&nbsp;Bootstrap</div>
+                    <div><i class="fa-regular fa-file-code"></i>&nbsp;Bulma</div>
+                    <div><i class="fa-brands fa-sass"></i>&nbsp;Sass</div>
+                    <div><i class="fa-regular fa-gem"></i>&nbsp;Ruby On Rails</div>
+                    <div><i class="fa-regular fa-gem"></i>&nbsp;Ruby</div>
+                    <div><i class="fa-solid fa-code"></i>&nbsp;jQuery</div>
+                    <div><i class="fa-brands fa-js"></i>&nbsp;JavaScript</div>
+                </div>
+            </section>
+        </div>
+    <script src="assets/index.js" type="text/javascript"></script>
+</section>
+
+</body>
+</html>
